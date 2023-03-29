@@ -95,7 +95,7 @@ function movesCheck() {
             result.style.fontFamily = "Rubik Wet Paint";
         }
         else {
-            result.innerHTML = `IT'S A <img class="tie" src="tie_1.png" alt="tie" height="60px">`
+            result.innerHTML = `IT'S A <img class="tie" src="images/tie_1.png" alt="tie" height="60px">`
             result.style.color = "#57418a";
         }
     }
