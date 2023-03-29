@@ -65,7 +65,7 @@ body, .container, .cntrs{
 }
 
 body, .home-menu-cntr {
-    background-color: #222;
+    background-color: #000;
     color: #fff;
 }
 
@@ -100,7 +100,7 @@ body, .home-menu-cntr {
     width: 50%;
     height: 6vh;
     color: #fff;
-    background: #222;
+    background: #000;
     box-shadow: 2px 2px #fff, 
     -2px -2px #fff;
     outline: none;
@@ -123,7 +123,7 @@ body, .home-menu-cntr {
 }
 
 .menu-btns:active {
-    background: #222;
+    background: #000;
     box-shadow: 2px 2px 12px #fff, 
     -2px -2px 12px #fff;
     transform: translateY(2px);
@@ -132,7 +132,7 @@ body, .home-menu-cntr {
 
 /*  RULES   */
 .rules-cntr {
-    background: #222;
+    background: #000;
 }
 
 .heading-rules {
@@ -167,7 +167,7 @@ body, .home-menu-cntr {
 /*HOW MANY ROUNDS DO YOU WANT TO PLAY?  */
 .rounds-cntr {
     display: block;
-    background: #222; 
+    background: #000; 
 }
 .heading-rounds {
     margin-top: 5vh;
@@ -342,7 +342,7 @@ body, .home-menu-cntr {
     background: #ff00ff;
     font-family: 1rem/5vh Arial, Helvetica, sans-serif;
     box-shadow: -3px -3px #71c1f0;
-    text-shadow: 0 0 1px #222;
+    text-shadow: 0 0 1px #000;
     font-weight: 700;
 }
 
@@ -362,14 +362,14 @@ body, .home-menu-cntr {
 
 .game-buttons:hover {
     color: #fff;
-    background: #222;
+    background: #000;
     box-shadow: 2px 2px 12px #fff, 
     -2px -2px 12px #fff;
 }
 
 .game-buttons:active { 
     color: #fff;
-    background: #222;
+    background: #000;
     box-shadow: 2px 2px #fff, 
     -2px -2px #fff;
 }
@@ -426,7 +426,7 @@ body, .home-menu-cntr {
     display: none;
     justify-content: center;
     align-items: center;
-    background:  #222;
+    background:  #000;
 }
 
 .result {
