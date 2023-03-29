@@ -167,7 +167,7 @@ body, .home-menu-cntr {
 /*HOW MANY ROUNDS DO YOU WANT TO PLAY?  */
 .rounds-cntr {
     display: block;
-    background: #080808; 
+    background: #000; 
 }
 .heading-rounds, .rounds-btns, .heading-game {
     text-shadow: 2px 2px 12px #ff00ff, 
