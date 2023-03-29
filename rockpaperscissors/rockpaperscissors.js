@@ -1,8 +1,8 @@
 /*  IMAGE OPTIONS FOR COMPUTER  */
 const hands = [ 
-    "paper_player2.png",
-    "scissors_player2.png",
-    "rock_player2.png"
+    "images/paper_player2.png",
+    "images/scissors_player2.png",
+    "images/rock_player2.png"
 ]
 
 /*  VARIABLES  */
@@ -106,7 +106,7 @@ rock.addEventListener("click", function (){
 
     options.style.display = "none";
 
-    you.innerHTML = `<img class="img-left" src="rock_player1.png">`;
+    you.innerHTML = `<img class="img-left" src="images/rock_player1.png">`;
     
     i = Math.floor( Math.random() * hands.length);
     computer.innerHTML = `<img class="img-right" src="${hands[i]}"/>`;
@@ -136,7 +136,7 @@ paper.addEventListener("click", function(){
 
     options.style.display = "none";
 
-    you.innerHTML = `<img class="img-left" src="paper_player1.png">`;
+    you.innerHTML = `<img class="img-left" src="images/paper_player1.png">`;
 
     i = Math.floor( Math.random() * hands.length);
     computer.innerHTML = `<img class="img-right" src="${hands[i]}"/>`;
@@ -166,7 +166,7 @@ scissors.addEventListener("click", function(){
 
     options.style.display = "none";
 
-    you.innerHTML = `<img class="img-left" src="scissors_player1.png">`;
+    you.innerHTML = `<img class="img-left" src="images/scissors_player1.png">`;
 
     i = Math.floor( Math.random() * hands.length);
     computer.innerHTML = `<img class="img-right" src="${hands[i]}"/>`;
