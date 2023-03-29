@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Oyelola Victoria">
+
+        <title>Rock Paper Scissors</title>
+
+        <link rel="stylesheet" type="text/css" href="rockpaperscissors.css">
+        <script src="https://kit.fontawesome.com/cc4f2f6008.js" crossorigin="anonymous"></script>
+       </head>
+
+    <body>
+
+    <div id="container" class="container">
+
+        <section id="game-cntr" class="game-cntr cntrs"> 
+
+            <h1 id="heading-game" class="heading-game headings">Rock Paper Scissors!</h1>
+
+                <div id="game" class="game">
+
+                    <div class="scores-cntr">
+                    <p id="player1_score" class="player1_score scores"> <span id="your-name">PLAYER ONE:</span> <span id="score-one">0</span></p>
+                    <p id="player2_score" class="player2_score scores"> <span id="computer-name">COMPUTER:</span> <span id="score-two">0</span> </p>
+                    </div>
+
+                    <div class="players-cntr">
+                    <div id="player1" class="player1 players"></div>
+                    <p id="vs" class="vs">VS</p>
+                    <div id="player2" class="player2 players"></div>
+                    </div>
+
+                    <div id="game-buttons-cntr" class="game-buttons-cntr">
+                        <button name="Start Game" type="button" id="start" class="start menu-btns game-buttons">Start🤩</button> <button name="Start Game" type="button" id="proceed" class="proceed game-buttons menu-btns">Proceed</button><br>
+                        <a id="end" class="end menu-btns game-buttons" href="index.html"> Exit😞</a>
+                    </div>
+                </div> 
+
+        </section>
+
+        <aside id="option-cntr" class="option-cntr cntrs"> 
+
+                <section id="options-cntr" class="options">
+
+                    <h2 id="moves-el" class="moves-el"> MOVES LEFT: <span id="moves-left">0</span></h2>
+                    <img id="rock_option" class="option-el rock" src="rock_option.png" alt="Rock Option">
+                    <img id="paper_option" class="options-el paper" src="paper_option.png" alt="Paper Option">
+                    <img id="scissors_option" class="options-el scissors" src="scissors_option.png" alt="Scissors Option"> <br>
+
+                    <h3 id="choose-el" class="choose-el"> CHOOSE ONE</h3> 
+                </section>
+
+            </aside>
+
+        <section id="rounds-cntr" class="rounds-cntr cntrs">
+            <h2 id="heading-rounds" class="heading-rounds headings">HOW MANY ROUNDS DO YOU WANT TO PLAY?</h2>
+
+            <button name="3 Rounds" type="button" id="three-rounds" class="three-rounds rounds-btns menu-btns"><b>3</b> ROUNDS</button><br>
+            <button name="5 Rounds" type="button" id="five-rounds" class="five-rounds rounds-btns menu-btns"><b>5</b> ROUNDS</button><br>
+            <button name="10 Rounds" type="button" id="ten-rounds" class="ten-rounds rounds-btns menu-btns"><b>10</b> ROUNDS</button><br>
+            
+            <img id="rock-img" class="rock-img objects" src="rock-img.png" alt="rock"> 
+            <img id="paper-img" class="paper-img objects" src="paper-img.png" alt="paper"> 
+            <img id="scissors-img" class="scissors-img objects" src="scissors_img.png" alt="scissors"> 
+        </section>
+
+        <section id="result-cntr" class="result-cntr cntrs">
+            <h3 id="result" class="result headings">Result</h3>
+            <a href="index.html"> <i class="fa-solid fa-arrow-left" title="Back to main menu"></i></a>
+        </section>
+    </div>
+    <script src="rockpaperscissors.js"></script>
+</body>
+</html>
