@@ -169,7 +169,7 @@ body, .home-menu-cntr {
     display: block;
     background: #080808; 
 }
-.heading-rounds, .rounds-btns {
+.heading-rounds, .rounds-btns, .heading-game {
     text-shadow: 2px 2px 12px #ff00ff, 
                 -2px -2px 12px #ff00ff;
 }
