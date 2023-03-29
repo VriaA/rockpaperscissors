@@ -85,8 +85,8 @@ body, .home-menu-cntr {
     margin-top: 10vh;
     font: 3rem/7vh 'Finger Paint', cursive;
     color: #FFF;
-    text-shadow: 2px 2px 12px #fff, 
-                -2px -2px 12px #fff;
+    text-shadow: 2px 2px 7px #fff, 
+                -2px -2px 7px #fff;
 }
 
 /*  HOME MENU */
