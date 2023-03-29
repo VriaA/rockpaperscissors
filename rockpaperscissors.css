@@ -441,6 +441,7 @@ body, .home-menu-cntr {
     width: fit-content;
     height: 85px;
     font: 2.5rem/85px 'Finger Paint', cursive;
+    text-shadow: none;
 }
 
 .tie {
