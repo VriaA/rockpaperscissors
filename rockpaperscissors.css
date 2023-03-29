@@ -166,14 +166,10 @@ body, .home-menu-cntr {
 
 /*HOW MANY ROUNDS DO YOU WANT TO PLAY?  */
 .rounds-cntr {
-    /* display: block;
-    background: -webkit-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
-    background: -ms-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
-    background: -moz-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
-    background: conic-gradient(#b3b3b3, #ff00ff,#00ffff);
-    background-repeat: no-repeat; */
+    display: block;
     background: #000;
-   transition: 0.5s all ease; 
+    opacity: 1;
+    animation: fadeIn .5s ease; 
 }
 .heading-rounds {
     margin-top: 5vh;
