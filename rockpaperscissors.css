@@ -85,8 +85,8 @@ body, .home-menu-cntr {
     margin-top: 10vh;
     font: 3rem/7vh 'Finger Paint', cursive;
     color: #FFF;
-    text-shadow: 2px 2px 12px #fff, 
-                -2px -2px 12px #fff;
+    text-shadow: 2px 2px 12px #ff00ff, 
+                -2px -2px 12px #ff00ff;
 }
 
 /*  HOME MENU */
@@ -108,8 +108,8 @@ body, .home-menu-cntr {
     font: 300 1rem/6vh Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     margin-bottom: 1.5vh;
-    text-shadow: 2px 2px 12px #fff, 
-                -2px -2px 12px #fff;
+    text-shadow: 2px 2px 12px #ff00ff, 
+                -2px -2px 12px #ff00ff;
     text-decoration: none;
 }
 
