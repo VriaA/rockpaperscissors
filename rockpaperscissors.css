@@ -166,15 +166,20 @@ body, .home-menu-cntr {
 
 /*HOW MANY ROUNDS DO YOU WANT TO PLAY?  */
 .rounds-cntr {
-    display: block;
+    /* display: block;
     background: -webkit-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
     background: -ms-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
     background: -moz-conic-gradient(#b3b3b3, #ff00ff,#00ffff);
     background: conic-gradient(#b3b3b3, #ff00ff,#00ffff);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: #000;
    transition: 0.5s all ease; 
 }
-.heading-rounds, .three-rounds {
+.heading-rounds {
+    margin-top: 5vh;
+}
+
+.three-rounds {
     margin-top: 15vh;
 }
 
@@ -451,6 +456,9 @@ body, .home-menu-cntr {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 16.8%;
+    }
+    .heading-rounds {
+        margin-top: 15vh;
     }
     .players-cntr {
         justify-content: space-around;
