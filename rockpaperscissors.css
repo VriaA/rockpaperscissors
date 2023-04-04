@@ -142,7 +142,8 @@ body, .home-menu-cntr {
                 -2px -2px 12px #FFF;
 }
 .rules-img {
-    width: 60%;
+    margin-left: 5%;
+    width: 70%;
     height: 50%;
     margin-top: 10vh;
 }
@@ -473,7 +474,9 @@ body, .home-menu-cntr {
     }
 
     .rules-img {
-        width: initial;
+        margin-left: 0;
+        width: 60%;
+        height: 60%;
     }
     .scores{
         font-size: 1.1rem;
